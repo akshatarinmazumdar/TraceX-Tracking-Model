@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment and virtual environments
+.env
+.env.*
+venv/
+.venv/
+env/
+
+# Node.js
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model, dataset, and archive files
+*.pt
+*.pth
+*.h5
+*.onnx
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.bin
+*.onnx.data
+*.weights
+*.ckpt
+*.model
+*.npy
+*.npz
+*.so
+*.so.*
+libtensorflow_cc.so.2
+libtensorflow_framework.so.2
+arcface_weights.h5
+retinaface.h5
+data/
+datasets/
+models/
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+
+# Files larger than 100 MB are intentionally kept local only.
+# Git cannot check file size with .gitignore patterns, so the staging
+# safety checks below must be run before every commit.
+
+# Secrets and credentials
+*.env
+*.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.token
+*.credentials
+credentials.json
+id_rsa
+id_dsa
+id_ed25519
+
+# Local output and generated files
+results/
+Target_Capture/
+Target/
+target/
+uploads/
+
+# Temporary and local project folders
+.tmp/
+temp/
+*.tmp

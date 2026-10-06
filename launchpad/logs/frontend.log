@@ -1,0 +1,36 @@
+
+> tracex-frontend@0.1.0 dev
+> node start-dev.js
+
+[36m🚀 Trace-X Unified Launcher: Starting Backend & Frontend...[0m
+[33m🐍 Starting backend using: /run/media/akshat/New Volume/My Stuff/My Projects/Trace-X/.venv/bin/python[0m
+[33m⚡ Starting frontend (Vite)...[0m
+[34m[Frontend][0m VITE v5.4.21  ready in 210 ms
+[34m[Frontend][0m ➜  Local:   http://localhost:5173/
+[34m[Frontend][0m   ➜  Network: use --host to expose
+[31m[Backend Err][0m WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+[31m[Backend Err][0m I0000 00:00:1782367051.661062   16656 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+[31m[Backend Err][0m I0000 00:00:1782367051.661742   16656 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+[31m[Backend Err][0m I0000 00:00:1782367051.698484   16656 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+[31m[Backend Err][0m To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[31m[Backend Err][0m WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+[31m[Backend Err][0m I0000 00:00:1782367052.537965   16656 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+[31m[Backend Err][0m I0000 00:00:1782367052.538375   16656 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+[31m[Backend Err][0m INFO:__main__:[INIT] TraceX components imported successfully
+[31m[Backend Err][0m INFO:__main__:[INIT] Starting TraceX Backend Pipeline...
+[31m[Backend Err][0m INFO:__main__:[INFO] Server running on http://localhost:5000
+[31m[Backend Err][0m INFO:__main__:[INFO] API Documentation:
+[31m[Backend Err][0m INFO:__main__:       POST   /api/upload/video     - Upload video
+[31m[Backend Err][0m INFO:__main__:       POST   /api/upload/photo     - Upload reference photo
+[31m[Backend Err][0m INFO:__main__:       POST   /api/process/trace    - Start processing
+[31m[Backend Err][0m INFO:__main__:       GET    /api/status           - Get processing status
+[31m[Backend Err][0m INFO:__main__:       GET    /api/results          - Get results
+[31m[Backend Err][0m INFO:__main__:       GET    /api/download/<filename> - Download processed video
+[31m[Backend Err][0m INFO:__main__:       GET    /video_feed           - Stream video feed
+[32m[Backend][0m * Serving Flask app 'backend'
+[32m[Backend][0m  * Debug mode: off
+[31m[Backend Err][0m Address already in use
+[31m[Backend Err][0m Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[31m[Backend] process exited with code 1[0m
+[33m
+🛑 Shutting down backend and frontend...[0m
